@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  background-color: #E5E8E8;
+}
+p{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+    font-family: 'Oxygen';
+    color:#435158;
+    padding: 50px;
+    margin: 100px 200px 30px 200px;
+    font-size: 30px;
+    line-height: 60px;
+  box-shadow: 5px 5px 50px;
+  background-color:   #90bdc1;
+}
+p+p{
+  font-size: 20px;
+  box-shadow: none;
+  background-color:#E5E8E8;
+}
+span{
+  color: #283747;
+}

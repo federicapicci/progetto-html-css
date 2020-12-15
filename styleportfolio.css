@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Oxygen';
+  color:#E5E8E8;
+text-align: center;
+background-color:  #154360;
+padding: 20px;
+border: solid;
+border-color:  #154360;
+}
+h2{
+    font-family: 'Oxygen';
+    color:#154360;
+    padding: 10px;
+}
+img{
+  width: 340px;
+  height: 250px;
+  border: solid;
+  border-color: #154360;
+
+}
+.copy{
+  position: relative;
+  left: 50px;
+  top: 20px;
+
+}
+body{
+  background-color:#E5E8E8;
+}
+img:hover{
+  animation:shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
